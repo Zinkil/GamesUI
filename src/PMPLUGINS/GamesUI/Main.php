@@ -110,43 +110,43 @@ class Main extends P implements L {
 			}
 			 switch($result){
 				case 0:
-					$this->getServer()->dispatchCommand($player, $cfg->get("skywars"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("sw join"));
 				break;
 					
 				case 1:
-					$this->getServer()->dispatchCommand($player, $cfg->get("bedwars"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("bw join"));
 				break;
 				
 				case 2:
-					$this->getServer()->dispatchCommand($player, $cfg->get("skymlg"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("skymlg join"));
 				break;
 				
 				case 3:
-					$this->getServer()->dispatchCommand($player, $cfg->get("eggwars"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("eggwars join"));
 				break;
 				
 				case 4:
-					$this->getServer()->dispatchCommand($player, $cfg->get("ffa"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("ffa join"));
 				break;
 				
 				case 5:
-					$this->getServer()->dispatchCommand($player, $cfg->get("mlgblock"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("mb join"));
 				break;
 				
 				case 6:
-					$this->getServer()->dispatchCommand($player, $cfg->get("sumo"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("sumo join"));
 				break;
 				
 				case 7:
-					$this->getServer()->dispatchCommand($player, $cfg->get("survivalgames"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("sg join"));
 				break;
 				
 				case 8:
-					$this->getServer()->dispatchCommand($player, $cfg->get("duel"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("duel join"));
 				break;
 				
 				case 9:
-					$this->getServer()->dispatchCommand($player, $cfg->get("turfwars"));
+					$this->getServer()->dispatchCommand($player, $cfg->get("fist join"));
 				break;
 				
 				case 10:
@@ -156,16 +156,16 @@ class Main extends P implements L {
 		});
 		$form->setTitle("§l§bGamesUI");
 		$form->setContent("Please Select Game");
-		$form->addButton("§l§bSky§l§fWars");
-		$form->addButton("§l§bBed§l§fWars");
-		$form->addButton("§l§bSky§l§fMLG");
-		$form->addButton("§l§bEgg§l§fWars");
+		$form->addButton("§l§bSky§l§cWars");
+		$form->addButton("§l§bBed§l§cWars");
+		$form->addButton("§l§bSky§l§cMLG");
+		$form->addButton("§l§bEgg§l§cWars");
 		$form->addButton("§l§bFF§l§cA");
-		$form->addButton("§l§bMLG§l§fBlock");
+		$form->addButton("§l§bMLG§l§cBlock");
 		$form->addButton("§l§bSu§l§cmo");
-		$form->addButton("§l§bSurvival§l§fGames");
+		$form->addButton("§l§bSurvival§l§cGames");
 		$form->addButton("§l§bDu§l§cel");
-		$form->addButton("§l§bTurf§l§fWars");
+		$form->addButton("§l§bFi§l§cst");
 		$form->addButton("§l§bEX§l§fIT");
 
 		$form->sendToPlayer($player);
