@@ -1,16 +1,16 @@
-name: GamesUI
+name: GamesUI By MR Zinkil
 main: PMPLUGINS\GamesUI\Main
 version: 1.0.0
 api: [3.0.0]
-load: POSTWORLD
-author: PM PLUGINS TEAM
-description: COPYRIGHT 2020 PM PLUGINS TEAM -(LAITHYOUTUBER - MRQUEEROSE - DLYAR GAMERYT)-
+load: MR Zinkil 2020 COPYRIGHT
+author: MR Zinkil
+description: COPYRIGHT 2020 MR Zinkil
 website: https://www.youtube.com/channel/UCM7WWOmQmD8b_fBWQmFxl8w
 
 commands: 
  games:
-    description: "GamesUI By PM-PLUGINS TEAM"
+    description: "GamesUI By MR Zinkil"
     usage: "/games"
  ginfo:
-    description: " info GamesUI By PM-PLUGINS TEAM"
+    description: " info GamesUI By MR Zinkil"
     usage: "/ginfo"
