@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/laith98/GamesUI
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Zinkil/GamesUI
 build-by-default: true
 branches:
 - master
